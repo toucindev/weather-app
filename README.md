@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🌤️ Clima em Cidades
 
 > Um pequeno projeto feito em **Node.js** que permite consultar a temperatura atual, sensação térmica e condição do tempo de uma ou várias cidades simultaneamente — direto no terminal!
@@ -39,24 +38,16 @@ npm install
 ## 🚀 Como executar
 
 1. Clone o repositório:
-\`\`\`bash
-git clone https://github.com/toucindev/weather-app
-\`\`\`
+\`\`\`bash git clone https://github.com/toucindev/weather-app\`\`\`
 
 2. Acesse a pasta do projeto:
-\`\`\`bash
-cd weather-app
-\`\`\`
+\`\`\`bash cd weather-app\`\`\`
 
 3. Instale as dependências:
-\`\`\`bash
-npm install
-\`\`\`
+\`\`\`bash npm install\`\`\`
 
 4. Rode o projeto:
-\`\`\`bash
-node main.js
-\`\`\`
+\`\`\`bash node main.js\`\`\`
 
 ---
 
@@ -92,11 +83,4 @@ Saída esperada:
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 Feito com 💻 e ☕ por toucindev(https://github.com/toucindev)
-EOF
