@@ -24,8 +24,8 @@
 
 | Pacote                              | Função                                   |
 |-------------------------------------|------------------------------------------|
-| [\`axios\`](https://www.npmjs.com/package/axios) | Requisições HTTP para a API wttr.in      |
-| [\`chalk\`](https://www.npmjs.com/package/chalk) | Estiliza a saída do terminal com cores   |
+| [`axios`](https://www.npmjs.com/package/axios) | Requisições HTTP para a API wttr.in      |
+| [`chalk`](https://www.npmjs.com/package/chalk) | Estiliza a saída do terminal com cores   |
 
 Para instalar as dependências:
 
@@ -39,27 +39,19 @@ npm install
 
 1. Clone o repositório:
 
-\`\`\`bash
-git clone https://github.com/toucindev/weather-app
-\`\`\`
+`bash git clone https://github.com/toucindev/weather-app`
 
 2. Acesse a pasta do projeto:
 
-\`\`\`bash
-cd weather-app
-\`\`\`
+`bash cd weather-app`
 
 3. Instale as dependências:
 
-\`\`\`bash
-npm install
-\`\`\`
+`bash npm install`
 
 4. Execute o projeto:
 
-\`\`\`bash
-node main.js
-\`\`\`
+`bash node main.js`
 
 ---
 
@@ -67,9 +59,7 @@ node main.js
 
 Digite o nome de uma ou mais cidades (separadas por vírgula) quando solicitado:
 
-\`\`\`bash
-Digite o nome das cidades (separadas por vírgula): São Paulo, Rio de Janeiro, Recife
-\`\`\`
+`Digite o nome das cidades (separadas por vírgula): São Paulo, Rio de Janeiro, Recife`
 
 Saída esperada:
 
