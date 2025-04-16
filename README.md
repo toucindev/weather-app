@@ -29,9 +29,7 @@
 
 Para instalar as dependências:
 
-\`\`\`bash
-npm install
-\`\`\`
+`bash npm install`
 
 ---
 
@@ -63,17 +61,9 @@ Digite o nome de uma ou mais cidades (separadas por vírgula) quando solicitado:
 
 Saída esperada:
 
-\`\`\`
-🌤️ Clima em São Paulo:
-🌡️ Temperatura atual: 28°C
-🤒 Sensação térmica: 29°C
-☁️ Condição: Parcialmente nublado
+`🌤️ Clima em São Paulo:\n🌡️ Temperatura atual: 28°C\n🤒 Sensação térmica: 29°C\n☁️ Condição: Parcialmente nublado`
 
-🌤️ Clima em Rio de Janeiro:
-🌡️ Temperatura atual: 30°C
-🤒 Sensação térmica: 32°C
-☁️ Condição: Ensolarado
-\`\`\`
+`🌤️ Clima em Rio de Janeiro:\n🌡️ Temperatura atual: 30°C\n🤒 Sensação térmica: 32°C\n☁️ Condição: Ensolarado`
 
 ---
 
