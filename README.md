@@ -1,7 +1,6 @@
-cat << 'EOF' > README.md
 # 🌤️ Clima em Cidades
 
-> Um pequeno projeto feito em **Node.js** que permite consultar a temperatura atual, sensação térmica e condição do tempo de uma ou várias cidades simultaneamente — direto no terminal!
+> Um pequeno projeto feito em **Node.js** que permite consultar a temperatura atual, sensação térmica e condição do tempo de uma ou várias cidades — direto no terminal!
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -14,7 +13,7 @@ cat << 'EOF' > README.md
 
 - Consulta de **clima atual** em múltiplas cidades
 - Busca **simultânea** usando \`Promise.all\`
-- Mostra:
+- Exibe:
   - 🌡️ Temperatura atual
   - 🤒 Sensação térmica
   - ☁️ Condição do tempo (ex: "Parcialmente nublado")
@@ -23,12 +22,12 @@ cat << 'EOF' > README.md
 
 ## 📦 Dependências
 
-| Pacote  | Função                                      |
-|---------|---------------------------------------------|
-| [\`axios\`](https://www.npmjs.com/package/axios) | Requisições HTTP para API wttr.in     |
-| [\`chalk\`](https://www.npmjs.com/package/chalk) | Estiliza o terminal com cores         |
+| Pacote                              | Função                                   |
+|-------------------------------------|------------------------------------------|
+| [\`axios\`](https://www.npmjs.com/package/axios) | Requisições HTTP para a API wttr.in      |
+| [\`chalk\`](https://www.npmjs.com/package/chalk) | Estiliza a saída do terminal com cores   |
 
-Instale tudo com:
+Para instalar as dependências:
 
 \`\`\`bash
 npm install
@@ -56,7 +55,7 @@ cd weather-app
 npm install
 \`\`\`
 
-4. Rode o projeto:
+4. Execute o projeto:
 
 \`\`\`bash
 node main.js
@@ -97,4 +96,3 @@ Saída esperada:
 ---
 
 Feito com 💻 e ☕ por [toucindev](https://github.com/toucindev)
-EOF
