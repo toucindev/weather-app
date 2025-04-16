@@ -1,3 +1,4 @@
+cat << 'EOF' > README.md
 # 🌤️ Clima em Cidades
 
 > Um pequeno projeto feito em **Node.js** que permite consultar a temperatura atual, sensação térmica e condição do tempo de uma ou várias cidades simultaneamente — direto no terminal!
@@ -12,7 +13,7 @@
 ## ✨ Funcionalidades
 
 - Consulta de **clima atual** em múltiplas cidades
-- Busca **simultânea** usando `Promise.all`
+- Busca **simultânea** usando \`Promise.all\`
 - Mostra:
   - 🌡️ Temperatura atual
   - 🤒 Sensação térmica
@@ -24,8 +25,8 @@
 
 | Pacote  | Função                                      |
 |---------|---------------------------------------------|
-| [`axios`](https://www.npmjs.com/package/axios) | Requisições HTTP para API wttr.in     |
-| [`chalk`](https://www.npmjs.com/package/chalk) | Estiliza o terminal com cores         |
+| [\`axios\`](https://www.npmjs.com/package/axios) | Requisições HTTP para API wttr.in     |
+| [\`chalk\`](https://www.npmjs.com/package/chalk) | Estiliza o terminal com cores         |
 
 Instale tudo com:
 
@@ -38,16 +39,28 @@ npm install
 ## 🚀 Como executar
 
 1. Clone o repositório:
-\`\`\`bash git clone https://github.com/toucindev/weather-app\`\`\`
+
+\`\`\`bash
+git clone https://github.com/toucindev/weather-app
+\`\`\`
 
 2. Acesse a pasta do projeto:
-\`\`\`bash cd weather-app\`\`\`
+
+\`\`\`bash
+cd weather-app
+\`\`\`
 
 3. Instale as dependências:
-\`\`\`bash npm install\`\`\`
+
+\`\`\`bash
+npm install
+\`\`\`
 
 4. Rode o projeto:
-\`\`\`bash node main.js\`\`\`
+
+\`\`\`bash
+node main.js
+\`\`\`
 
 ---
 
@@ -83,4 +96,5 @@ Saída esperada:
 
 ---
 
-Feito com 💻 e ☕ por toucindev(https://github.com/toucindev)
+Feito com 💻 e ☕ por [toucindev](https://github.com/toucindev)
+EOF
